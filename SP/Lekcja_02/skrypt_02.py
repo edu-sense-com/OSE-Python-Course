@@ -20,13 +20,12 @@ h = 8
 pi = 3.1415927
 
 rectangle_area = a * b
-rectangle_circumferance = 2 * a + 2 * b
 triangle_area = (a * h) / 2
 circle_area = pi * r * r
-circle_circumferance = 2 * pi * r
 
-print("Prostokąt:")
-print("Pole", rectangle_area, "Obwód", rectangle_circumferance, sep=";")
-print("Koło", end="-->")
-print("Pole", circle_area, "Obwód", circle_circumferance, sep="*", end="!")
-print("Pole trójkąta:", triangle_area)
+print("Rectangle", end=" ")
+print("Area:", rectangle_area)
+print("Circle", end=" ")
+print("Are:", circle_area)
+print("Triangle", end=" ")
+print("Area:", triangle_area)
