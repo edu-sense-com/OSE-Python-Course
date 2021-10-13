@@ -1,4 +1,4 @@
-def divisibility(value: int) -> list:
+def divisibility(value):
     """value should be an integer number"""
 
     if type(value) is not int:
