@@ -23,7 +23,7 @@ mode("standard")
 speed("slow")
 # tytuł okna
 title("Euklides animation")
-# ukrywamy znacznik żółwia 
+# ukrywamy znacznik żółwia
 hideturtle()
 
 
