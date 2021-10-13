@@ -17,13 +17,17 @@ if value_1 + value_2 > max_sum:
     print(f"Sum of values too high - {max_sum} maximum!")
     exit(2)
 
+# tryb standardowy okna żółwia
 mode("standard")
+# prędkość rysowania: slowest, slow, normal, fast, fastest
 speed("slow")
+# tytuł okna
 title("Euklides animation")
+# ukrywamy znacznik żółwia 
 hideturtle()
 
 
-def rectangle(start_x: int, value_1: int, value_2: int, colors: tuple) -> int:
+def rectangle(start_x, value_1, value_2, colors):
     # value_1
     penup()
     goto(start_x, y_level)
@@ -63,4 +67,5 @@ while value_1 != value_2:
 
 print("Click on graphics to exit.")
 print(f"Euklides result is: {min([value_1, value_2])}")
+# zatrzymujemy obraz na ekranie do kliknięcia myszą
 exitonclick()
