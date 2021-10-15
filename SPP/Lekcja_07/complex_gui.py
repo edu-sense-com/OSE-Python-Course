@@ -10,6 +10,8 @@ layout = [
 
 window = sg.Window("Main application", layout)
 while True:
+    # rozpakowywanie tupli (pythoniznm) - pobieramy dane (values) z
+    # formularza i wczytujemy wciśnięty przycisk (event)
     event, values = window.read()
     if event == sg.WIN_CLOSED or event == "OK":
         break
